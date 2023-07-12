@@ -1,0 +1,9 @@
+version: '3'
+name: php-oracle
+services:
+  php:
+    container_name: php-oracle
+    build: .
+    tty: true
+    expose:
+      - 8002:8002
